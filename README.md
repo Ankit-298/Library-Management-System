@@ -1,53 +1,69 @@
+<div align="center">
+
 # 📚 Library Management System
 
-<p align="center">
+A modern **Console-Based Library Management System** built with **C++17**, **Object-Oriented Programming**, **STL**, and **File Handling**.
 
-![C++](https://img.shields.io/badge/C++-17-blue?style=for-the-badge&logo=c%2B%2B)
-![OOP](https://img.shields.io/badge/OOP-Object%20Oriented-success?style=for-the-badge)
-![STL](https://img.shields.io/badge/STL-Containers-orange?style=for-the-badge)
-![File Handling](https://img.shields.io/badge/File%20Handling-Persistent-red?style=for-the-badge)
-![CMake](https://img.shields.io/badge/CMake-Build-blueviolet?style=for-the-badge)
+<p>
+
+![C++](https://img.shields.io/badge/C++17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-Object--Oriented-4CAF50?style=for-the-badge)
+![STL](https://img.shields.io/badge/STL-Containers-FF9800?style=for-the-badge)
+![File Handling](https://img.shields.io/badge/File%20Handling-Persistent-E91E63?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blueviolet?style=for-the-badge)
 
 </p>
 
-A **console-based Library Management System** built using **C++17**, **Object-Oriented Programming (OOP)**, **STL Containers**, and **File Handling**.
+> Manage books, members, book issuing, returns, due dates, and fines with automatic file-based data persistence.
 
-This project enables efficient management of books and library members with persistent data storage. It demonstrates core C++ concepts including classes, encapsulation, STL, file handling, and modular project architecture.
+</div>
+
+---
+
+# 📑 Table of Contents
+
+- ✨ Features
+- 🛠 Tech Stack
+- 📂 Project Structure
+- ⚡ Getting Started
+- 📸 Screenshots
+- 💾 Data Storage
+- 🧠 OOP Concepts
+- 🚀 Future Improvements
+- 👨‍💻 Author
 
 ---
 
 # ✨ Features
 
-| Feature | Status |
-|---------|:------:|
-| Add Book | ✅ |
-| Remove Book | ✅ |
-| Update Book | ✅ |
-| Search by ID | ✅ |
-| Search by Title | ✅ |
-| Search by Author | ✅ |
-| Display Books | ✅ |
-| Register Member | ✅ |
-| Remove Member | ✅ |
-| Display Members | ✅ |
-| Issue Book | ✅ |
-| Return Book | ✅ |
-| Due Date Tracking | ✅ |
-| Fine Calculation | ✅ |
-| Show Issued Books | ✅ |
-| Automatic Save | ✅ |
-| Automatic Load | ✅ |
+| 📚 Library | 👤 Members | 📋 Transactions |
+|------------|-----------|----------------|
+| ✅ Add Book | ✅ Register Member | ✅ Issue Book |
+| ✅ Remove Book | ✅ Remove Member | ✅ Return Book |
+| ✅ Update Book | ✅ View Members | ✅ Due Date Tracking |
+| ✅ Search Book | | ✅ Fine Calculation |
+| ✅ Display Books | | ✅ Issued Books |
+
+### Extra Features
+
+- 💾 Automatic Data Saving
+- 📂 Automatic Data Loading
+- 🚫 Duplicate Book Validation
+- 📖 Search by ID, Title & Author
+- 🖥 Menu Driven Interface
 
 ---
 
 # 🛠 Tech Stack
 
-- C++17
-- Object-Oriented Programming
-- Standard Template Library (STL)
-- File Handling
-- CMake
-- VS Code
+| Technology | Purpose |
+|------------|---------|
+| C++17 | Programming Language |
+| OOP | Application Design |
+| STL | Data Structures |
+| File Handling | Persistent Storage |
+| CMake | Build System |
+| VS Code | Development |
 
 ---
 
@@ -63,44 +79,28 @@ Library-Management-System
 │
 ├── include/
 │   ├── Book.h
-│   ├── Member.h
 │   ├── Library.h
+│   ├── Member.h
 │   └── Utility.h
 │
 ├── src/
 │   ├── Book.cpp
-│   ├── Member.cpp
 │   ├── Library.cpp
+│   ├── Member.cpp
 │   ├── Utility.cpp
 │   └── main.cpp
 │
 ├── screenshots/
 │
 ├── .gitignore
-├── CMakeLists.txt
 ├── LICENSE
+├── CMakeLists.txt
 └── README.md
 ```
 
 ---
 
-# 🧠 OOP Concepts Used
-
-- Classes & Objects
-- Encapsulation
-- Constructors
-- Destructors
-- Abstraction
-- STL Vector
-- STL Map
-- STL Unordered Map
-- File Handling
-- Data Persistence
-- Menu Driven Programming
-
----
-
-# 🚀 Build & Run
+# ⚡ Getting Started
 
 ## Compile
 
@@ -116,7 +116,7 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 ---
 
-# 📸 Application Screenshots
+# 📸 Screenshots
 
 ## 🏠 Main Menu
 
@@ -142,21 +142,9 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 ---
 
-## 👥 Display Members
-
-![Display Members](screenshots/display_members.png)
-
----
-
 ## 📕 Issue Book
 
 ![Issue Book](screenshots/issue_book.png)
-
----
-
-## 📋 Issued Books
-
-![Issued Books](screenshots/issued_books.png)
 
 ---
 
@@ -172,12 +160,6 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 ---
 
-## 🚫 Duplicate Book Validation
-
-![Duplicate Book](screenshots/duplicate_book.png)
-
----
-
 ## 💾 Data Persistence
 
 ![Data Persistence](screenshots/data_loaded.png)
@@ -186,28 +168,41 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 # 💾 Data Storage
 
-The application stores all records in plain text files.
+All records are stored automatically in text files.
 
 ```text
-data/
-├── books.txt
-├── members.txt
-└── issues.txt
+books.txt
+members.txt
+issues.txt
 ```
 
-Data is automatically loaded when the application starts and saved whenever changes are made.
+The application loads the data at startup and saves every change automatically.
 
 ---
 
-# 🎯 Future Enhancements
+# 🧠 OOP Concepts Demonstrated
 
-- 🔐 Admin Login
-- 🔑 Authentication System
+- Classes & Objects
+- Encapsulation
+- Constructors & Destructors
+- STL Vector
+- STL Map
+- STL Unordered Map
+- File Handling
+- Data Persistence
+- Modular Programming
+
+---
+
+# 🚀 Future Improvements
+
+- 🔐 Login System
 - 🖥 GUI Version
-- 🗄 MySQL Database Integration
-- 📱 QR Code Based Book Issue
-- 📷 Barcode Scanner Support
-- 📅 Book Reservation System
+- 🗄 MySQL Integration
+- 📱 QR Code Based Issue
+- 📷 Barcode Scanner
+- ☁ Cloud Database
+- 📊 Reports & Analytics
 
 ---
 
@@ -215,10 +210,14 @@ Data is automatically loaded when the application starts and saved whenever chan
 
 **Ankit**
 
-Computer Science Engineering Student
+🎓 Computer Science Engineering Student
 
 ---
 
-# ⭐ Support
+<div align="center">
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+### ⭐ If you like this project, don't forget to Star the repository!
+
+Made with ❤️ using C++.
+
+</div>
