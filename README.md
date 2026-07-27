@@ -154,7 +154,7 @@ Run
 
 ### Search Book
 
-![Search Book](screenshots/search_book.png)
+![Search Book](screenshots/search_title.png)
 
 ---
 
