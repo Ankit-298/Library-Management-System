@@ -1,0 +1,2 @@
+101|Clean Code|Robert Martin|Programming|2008|938755937485|1
+102|C++ Primer|Stanley Lippman|Programming|2012|95747574845|0
