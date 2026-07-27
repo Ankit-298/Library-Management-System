@@ -206,7 +206,8 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 <div align="center">
 <h2>Ankit Kumar</h2>
 
-🎓 <b>Computer Science Engineering Student</b>
+🎓 **Computer Science Engineering Student**<br>
+💻 **C++ • Object-Oriented Programming • Data Structures • STL**
 
 <br>
 
