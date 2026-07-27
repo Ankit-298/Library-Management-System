@@ -16,7 +16,7 @@ Manage books, members, book issuing, returns, due dates, fines, and persistent s
 
 </p>
 
-<img src="screenshots/banner.png" width="900"/>
+<img src="screenshots/banner.png" width="500"/>
 
 ⭐ **If you like this project, consider giving it a Star!**
 
@@ -26,9 +26,11 @@ Manage books, members, book issuing, returns, due dates, fines, and persistent s
 
 # 📖 Overview
 
-This project is a **menu-driven Library Management System** developed in **C++17** following **Object-Oriented Programming (OOP)** principles.
+The **Library Management System** is a console-based application developed in **C++17** that demonstrates the practical implementation of **Object-Oriented Programming (OOP)**, **STL Containers**, and **File Handling**.
 
-It provides a simple and efficient way to manage books and members while demonstrating modular programming, STL usage, and persistent file storage.
+The system enables efficient management of books and members by supporting operations such as adding, updating, searching, issuing, and returning books. It also includes **due date tracking**, **fine calculation**, and **automatic data persistence**, ensuring that records are securely stored and reloaded across program executions.
+
+Designed with a modular architecture, this project highlights clean code practices, efficient data management, and real-world problem solving using modern C++.
 
 ---
 
