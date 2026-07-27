@@ -1,37 +1,49 @@
-# 📚 Library Management System 
+# 📚 Library Management System
 
-A console-based **Library Management System** developed in **C++17** using **Object-Oriented Programming (OOP)**, **STL Containers**, and **File Handling**.
+<p align="center">
 
-The application allows users to manage books and members, issue and return books, calculate fines, and store all records permanently using text files.
+![C++](https://img.shields.io/badge/C++-17-blue?style=for-the-badge&logo=c%2B%2B)
+![OOP](https://img.shields.io/badge/OOP-Object%20Oriented-success?style=for-the-badge)
+![STL](https://img.shields.io/badge/STL-Containers-orange?style=for-the-badge)
+![File Handling](https://img.shields.io/badge/File%20Handling-Persistent-red?style=for-the-badge)
+![CMake](https://img.shields.io/badge/CMake-Build-blueviolet?style=for-the-badge)
 
----
+</p>
 
-## ✨ Features
+A **console-based Library Management System** built using **C++17**, **Object-Oriented Programming (OOP)**, **STL Containers**, and **File Handling**.
 
-- 📖 Add Book
-- ❌ Remove Book
-- ✏️ Update Book
-- 🔍 Search Book by ID
-- 🔍 Search Book by Title
-- 🔍 Search Book by Author
-- 📚 Display All Books
-- 👤 Register Member
-- 🗑 Remove Member
-- 👥 Display Members
-- 📕 Issue Book
-- 📗 Return Book
-- ⏰ Due Date Tracking
-- 💰 Fine Calculation
-- 📋 Show Issued Books
-- 💾 Automatic Data Saving
-- 📂 Automatic Data Loading
+This project enables efficient management of books and library members with persistent data storage. It demonstrates core C++ concepts including classes, encapsulation, STL, file handling, and modular project architecture.
 
 ---
 
-## 🛠 Technologies Used
+# ✨ Features
+
+| Feature | Status |
+|---------|:------:|
+| Add Book | ✅ |
+| Remove Book | ✅ |
+| Update Book | ✅ |
+| Search by ID | ✅ |
+| Search by Title | ✅ |
+| Search by Author | ✅ |
+| Display Books | ✅ |
+| Register Member | ✅ |
+| Remove Member | ✅ |
+| Display Members | ✅ |
+| Issue Book | ✅ |
+| Return Book | ✅ |
+| Due Date Tracking | ✅ |
+| Fine Calculation | ✅ |
+| Show Issued Books | ✅ |
+| Automatic Save | ✅ |
+| Automatic Load | ✅ |
+
+---
+
+# 🛠 Tech Stack
 
 - C++17
-- Object-Oriented Programming (OOP)
+- Object-Oriented Programming
 - Standard Template Library (STL)
 - File Handling
 - CMake
@@ -39,10 +51,10 @@ The application allows users to manage books and members, issue and return books
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
-Library-Management-System/
+```text
+Library-Management-System
 │
 ├── data/
 │   ├── books.txt
@@ -72,29 +84,31 @@ Library-Management-System/
 
 ---
 
-## ⚙️ Concepts Used
+# 🧠 OOP Concepts Used
 
 - Classes & Objects
 - Encapsulation
-- Constructors & Destructors
+- Constructors
+- Destructors
+- Abstraction
 - STL Vector
 - STL Map
 - STL Unordered Map
 - File Handling
-- Data Serialization
+- Data Persistence
 - Menu Driven Programming
 
 ---
 
-## 🚀 How to Build
+# 🚀 Build & Run
 
-### Using g++
+## Compile
 
 ```bash
 g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cpp src/Utility.cpp -o library.exe
 ```
 
-Run
+## Run
 
 ```bash
 ./library.exe
@@ -102,101 +116,102 @@ Run
 
 ---
 
-## 📸 Screenshots
+# 📸 Application Screenshots
 
-### Main Menu
+## 🏠 Main Menu
 
 ![Main Menu](screenshots/menu.png)
 
 ---
 
-### Add Book
+## 📖 Add Book
 
 ![Add Book](screenshots/add_book.png)
 
 ---
 
-### Display Books
+## 📚 Display Books
 
 ![Display Books](screenshots/display_books.png)
 
 ---
 
-### Register Member
+## 👤 Register Member
 
 ![Register Member](screenshots/register_member.png)
 
 ---
 
-### Display Members
+## 👥 Display Members
 
 ![Display Members](screenshots/display_members.png)
 
 ---
 
-### Issue Book
+## 📕 Issue Book
 
 ![Issue Book](screenshots/issue_book.png)
 
 ---
 
-### Show Issued Books
+## 📋 Issued Books
 
 ![Issued Books](screenshots/issued_books.png)
 
 ---
 
-### Return Book
+## 📗 Return Book
 
 ![Return Book](screenshots/return_book.png)
 
 ---
 
-### Search Book
+## 🔍 Search Book
 
 ![Search Book](screenshots/search_title.png)
 
 ---
 
-### Duplicate Book Validation
+## 🚫 Duplicate Book Validation
 
 ![Duplicate Book](screenshots/duplicate_book.png)
 
 ---
 
-### Data Persistence
+## 💾 Data Persistence
 
 ![Data Persistence](screenshots/data_loaded.png)
 
 ---
 
-## 💾 Data Storage
+# 💾 Data Storage
 
-All application data is stored inside the **data/** directory.
+The application stores all records in plain text files.
 
+```text
+data/
+├── books.txt
+├── members.txt
+└── issues.txt
 ```
-books.txt
-members.txt
-issues.txt
-```
 
-Records are automatically loaded when the application starts and automatically saved whenever changes are made.
+Data is automatically loaded when the application starts and saved whenever changes are made.
 
 ---
 
-## 🎯 Future Improvements
+# 🎯 Future Enhancements
 
-- Admin Login
-- Password Authentication
-- GUI Version
-- Database Integration (MySQL)
-- QR Code Based Book Issue
-- Barcode Scanner Support
-- Book Reservation System
+- 🔐 Admin Login
+- 🔑 Authentication System
+- 🖥 GUI Version
+- 🗄 MySQL Database Integration
+- 📱 QR Code Based Book Issue
+- 📷 Barcode Scanner Support
+- 📅 Book Reservation System
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Ankit**
 
@@ -204,4 +219,6 @@ Computer Science Engineering Student
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a star.
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
