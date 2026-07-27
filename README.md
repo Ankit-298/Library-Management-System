@@ -199,13 +199,27 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 ---
 
+---
+
+<div align="center">
+
 # 👨‍💻 Author
 
-**Ankit**
+<h2>Ankit Kumar</h2>
 
-🎓 Computer Science Engineering Student
+🎓 <b>Computer Science Engineering Student</b>
 
-📌 Passionate about C++, Data Structures & Software Development
+💻 Passionate about <b>C++, Data Structures & Software Development</b>
+
+📚 Currently Learning <b>Full Stack Development & Competitive Programming</b>
+
+<br>
+
+<a href="https://github.com/Ankit-298">
+    <img src="https://img.shields.io/badge/GitHub-Ankit--298-181717?style=for-the-badge&logo=github">
+</a>
+
+</div>
 
 ---
 
@@ -213,8 +227,10 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 ## ⭐ Thank You for Visiting!
 
-If you found this project helpful, don't forget to ⭐ the repository.
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
-Made with ❤️ in **C++17**
+Made with ❤️ using **C++17**
+
+</div>
 
 </div>
