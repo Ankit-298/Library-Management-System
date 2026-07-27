@@ -1,4 +1,4 @@
-# 📚 Library Management System (C++)
+# 📚 Library Management System 
 
 A console-based **Library Management System** developed in **C++17** using **Object-Oriented Programming (OOP)**, **STL Containers**, and **File Handling**.
 
