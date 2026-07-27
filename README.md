@@ -206,10 +206,6 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 🎓 <b>Computer Science Engineering Student</b>
 
-💻 Passionate about <b>C++, Data Structures & Software Development</b>
-
-📚 Currently Learning <b>Full Stack Development & Competitive Programming</b>
-
 <br>
 
 <a href="https://github.com/Ankit-298">
@@ -226,7 +222,7 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
 
-Made with ❤️ using **C++17**
+Made with ❤️ using **C++** & **Object-Oriented Programming**
 
 </div>
 
