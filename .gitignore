@@ -1,6 +1,0 @@
-*.exe
-build/
-.vscode/
-*.o
-*.obj
-CMakeFiles/
