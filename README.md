@@ -93,9 +93,7 @@ Library-Management-System
 │   └── main.cpp
 │
 ├── screenshots/
-│
-├── LICENSE
-├── .gitignore
+|
 ├── README.md
 └── CMakeLists.txt
 ```
