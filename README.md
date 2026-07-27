@@ -2,72 +2,72 @@
 
 # 📚 Library Management System
 
-A modern **Console-Based Library Management System** built with **C++17**, **Object-Oriented Programming**, **STL**, and **File Handling**.
+### A Modern C++17 Console Application for Efficient Library Management
 
-<p>
+Manage books, members, book issuing, returns, due dates, fines, and persistent storage using **Object-Oriented Programming**, **STL**, and **File Handling**.
+
+<p align="center">
 
 ![C++](https://img.shields.io/badge/C++17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![OOP](https://img.shields.io/badge/OOP-Object--Oriented-4CAF50?style=for-the-badge)
-![STL](https://img.shields.io/badge/STL-Containers-FF9800?style=for-the-badge)
-![File Handling](https://img.shields.io/badge/File%20Handling-Persistent-E91E63?style=for-the-badge)
+![OOP](https://img.shields.io/badge/OOP-Design-success?style=for-the-badge)
+![STL](https://img.shields.io/badge/STL-Containers-orange?style=for-the-badge)
+![File Handling](https://img.shields.io/badge/File-Handling-red?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blueviolet?style=for-the-badge)
 
 </p>
 
-> Manage books, members, book issuing, returns, due dates, and fines with automatic file-based data persistence.
+<img src="screenshots/banner.png" width="900"/>
+
+⭐ **If you like this project, consider giving it a Star!**
 
 </div>
 
 ---
 
-# 📑 Table of Contents
+# 📖 Overview
 
-- ✨ Features
-- 🛠 Tech Stack
-- 📂 Project Structure
-- ⚡ Getting Started
-- 📸 Screenshots
-- 💾 Data Storage
-- 🧠 OOP Concepts
-- 🚀 Future Improvements
-- 👨‍💻 Author
+This project is a **menu-driven Library Management System** developed in **C++17** following **Object-Oriented Programming (OOP)** principles.
+
+It provides a simple and efficient way to manage books and members while demonstrating modular programming, STL usage, and persistent file storage.
 
 ---
 
-# ✨ Features
+# ✨ Key Features
 
-| 📚 Library | 👤 Members | 📋 Transactions |
-|------------|-----------|----------------|
+| 📚 Book Management | 👤 Member Management | 📋 Library Operations |
+|-------------------|----------------------|-----------------------|
 | ✅ Add Book | ✅ Register Member | ✅ Issue Book |
 | ✅ Remove Book | ✅ Remove Member | ✅ Return Book |
-| ✅ Update Book | ✅ View Members | ✅ Due Date Tracking |
-| ✅ Search Book | | ✅ Fine Calculation |
-| ✅ Display Books | | ✅ Issued Books |
+| ✅ Update Book | ✅ Display Members | ✅ Due Date Tracking |
+| ✅ Search by ID | | ✅ Fine Calculation |
+| ✅ Search by Title | | ✅ Show Issued Books |
+| ✅ Search by Author | | |
+| ✅ Display Books | | |
 
-### Extra Features
+### Additional Features
 
 - 💾 Automatic Data Saving
 - 📂 Automatic Data Loading
 - 🚫 Duplicate Book Validation
-- 📖 Search by ID, Title & Author
-- 🖥 Menu Driven Interface
+- 📁 Persistent File Storage
+- ⚡ Fast Search using STL
 
 ---
 
 # 🛠 Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
+| Technology | Usage |
+|------------|------|
 | C++17 | Programming Language |
-| OOP | Application Design |
+| OOP | Software Design |
 | STL | Data Structures |
 | File Handling | Persistent Storage |
 | CMake | Build System |
-| VS Code | Development |
+| VS Code | IDE |
 
 ---
 
-# 📂 Project Structure
+# 📂 Folder Structure
 
 ```text
 Library-Management-System
@@ -92,23 +92,23 @@ Library-Management-System
 │
 ├── screenshots/
 │
-├── .gitignore
 ├── LICENSE
-├── CMakeLists.txt
-└── README.md
+├── .gitignore
+├── README.md
+└── CMakeLists.txt
 ```
 
 ---
 
-# ⚡ Getting Started
+# 🚀 Build & Run
 
-## Compile
+### Compile
 
 ```bash
 g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cpp src/Utility.cpp -o library.exe
 ```
 
-## Run
+### Run
 
 ```bash
 ./library.exe
@@ -116,7 +116,7 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 ---
 
-# 📸 Screenshots
+# 📸 Application Preview
 
 ## 🏠 Main Menu
 
@@ -148,6 +148,12 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 ---
 
+## 📋 Issued Books
+
+![Issued Books](screenshots/issued_books.png)
+
+---
+
 ## 📗 Return Book
 
 ![Return Book](screenshots/return_book.png)
@@ -166,43 +172,30 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Book.cpp src/Member.cpp src/Library.cp
 
 ---
 
-# 💾 Data Storage
+# 🧠 C++ Concepts Demonstrated
 
-All records are stored automatically in text files.
-
-```text
-books.txt
-members.txt
-issues.txt
-```
-
-The application loads the data at startup and saves every change automatically.
-
----
-
-# 🧠 OOP Concepts Demonstrated
-
-- Classes & Objects
+- Object-Oriented Programming
 - Encapsulation
 - Constructors & Destructors
+- Classes & Objects
 - STL Vector
 - STL Map
 - STL Unordered Map
 - File Handling
-- Data Persistence
 - Modular Programming
+- Data Persistence
 
 ---
 
-# 🚀 Future Improvements
+# 📈 Future Scope
 
 - 🔐 Login System
-- 🖥 GUI Version
 - 🗄 MySQL Integration
+- 🖥 GUI Version (Qt)
 - 📱 QR Code Based Issue
 - 📷 Barcode Scanner
-- ☁ Cloud Database
-- 📊 Reports & Analytics
+- ☁ Cloud Storage
+- 📊 Reports & Analytics Dashboard
 
 ---
 
@@ -212,12 +205,16 @@ The application loads the data at startup and saves every change automatically.
 
 🎓 Computer Science Engineering Student
 
+📌 Passionate about C++, Data Structures & Software Development
+
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, don't forget to Star the repository!
+## ⭐ Thank You for Visiting!
 
-Made with ❤️ using C++.
+If you found this project helpful, don't forget to ⭐ the repository.
+
+Made with ❤️ in **C++17**
 
 </div>
