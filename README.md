@@ -94,6 +94,7 @@ Library-Management-System
 │
 ├── screenshots/
 |
+├──.gitignore
 ├── README.md
 └── CMakeLists.txt
 ```
